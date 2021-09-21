@@ -80,8 +80,23 @@ h3 {
     border-top: 1px solid #ebebeb;
     background-color: #fff;
     padding: 15px;
-}
-
+  }
+  .circulo-icono {
+    float: right;
+    color: #39b54a;
+    border-radius: 50%;
+    border: 1px solid #39b54a;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    position: relative;
+    bottom: 36px;
+    right: 30px;
+  
+  }
+   .fa-truck {
+    margin: 5px;
+   }
 .circulo-icono {
     color: #39b54a;
     border-radius: 50%;
@@ -116,7 +131,7 @@ h3 {
       display: block;
     }
     main section article {
-      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+      margin: 10px;
     }
     header nav {
       display: block;
@@ -124,7 +139,23 @@ h3 {
     .burger-menu {
       display: none;
     }
+    section {
+        display: flex;
+        justify-content: initial;
+    }
 }
+
+@media (min-width: 768px){
+    .body-html .section-html{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: auto;
+    }
+    .body-html .section-html .ver{
+        width: 46%;
+    }
+
+  }
 
 main img { 
     width: 100%;  
@@ -136,7 +167,7 @@ main section{
 }
 
 main section article {
-    margin-top: 10%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 main section article i {
@@ -173,6 +204,20 @@ main section article i {
     margin-top: 20px;
 }
 /* fin */
+
+.buscador input {   
+    width: 200px;
+    height: 30px;
+    padding: 0 20px;
+    color: black;
+    outline: none;
+    border-radius: 30px;
+    font-size: 2vh; 
+    position: relative;
+}
+
+
+
 
 
 
