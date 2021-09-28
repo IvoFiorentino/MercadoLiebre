@@ -136,9 +136,6 @@ h3 {
     header nav {
       display: block;
     }
-    .burger-menu {
-      display: none;
-    }
     section {
         display: flex;
         justify-content: initial;
@@ -155,7 +152,18 @@ h3 {
         width: 46%;
     }
 
-  }
+}
+
+@media (min-width: 1280px){
+    .body-html .section-html{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .body-html .section-html .ver{
+        width: 24%;
+    } 
+}
 
 main img { 
     width: 100%;  
@@ -216,10 +224,35 @@ main section article i {
     position: relative;
 }
 
+.navegador ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
 
+.navegador ul li {
+    display: inline-block;
+}
 
+.navegador ul li a:hover{
+    background-color: blue;
+    border-radius: 6px;
+}
 
+.navegador .botones2 {
+    display: flex;
+    justify-content: flex-end;
+}
 
+.navegador .botones1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1px;
+}
 
+div.botones2 {
+    display: flex;
+    justify-content: space-between;
+}
 
 
